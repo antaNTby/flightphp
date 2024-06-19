@@ -24,10 +24,14 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
+        "datatables/datatables": "^1.10",
         "flightphp/core": "^3.0",
         "flightphp/runway": "^0.2",
         "smarty/smarty": "^5.3",
-        "tracy/tracy": "^2.9"
+        "tracy/tracy": "^2.9",
+        "twbs/bootstrap": "5.3.3",
+        "twbs/bootstrap-icons": "^1.11",
+        "vakata/jstree": "^3.3"
     },
     "config": {
         "process-timeout": 0,
