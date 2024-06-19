@@ -7,7 +7,7 @@
             ".gitignore",
             "Vagrantfile",
             ".runway-config.json",
-            "composer.json",
+            // "composer.json",
             "composer.lock",
             // "README.md",
             "index-simple.php",
@@ -19,7 +19,24 @@
             ".git",
             // "app",
             // "public",
-            "vendor",
+            // "vendor",
         ],
     }, ],
+    "settings":
+    {
+        "default_encoding": "UTF-8",
+        "fallback_encoding": "UTF-8",
+        "tab_size": 4,
+         // "color_scheme": "Dark Knight.sublime-color-scheme",
+        // "color_scheme": "Breakers.sublime-color-scheme",
+        // "color_scheme": "Monokai.sublime-color-scheme",
+        // "color_scheme": "Sixteen.sublime-color-scheme",
+        // "color_scheme": "Mariana.sublime-color-scheme",
+        // "color_scheme": "Mariana.sublime-color-scheme",
+        // "color_scheme": "Mariana.sublime-color-scheme",
+        // "color_scheme": "Mariana.sublime-color-scheme",
+        // "color_scheme": "Breakers.sublime-color-scheme",
+         "color_scheme": "Dark Knight.sublime-color-scheme",
+    }
+
 }

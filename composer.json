@@ -1,5 +1,6 @@
 {
     "name": "flightphp/skeleton",
+    "version":"1.0.0.1",
     "description": "A Flight PHP framework skeleton app to get your new projects up and running ASAP",
     "keywords": [
         "microframework",
@@ -25,6 +26,7 @@
         "ext-json": "*",
         "flightphp/core": "^3.0",
         "flightphp/runway": "^0.2",
+        "smarty/smarty": "^5.3",
         "tracy/tracy": "^2.9"
     },
     "config": {

@@ -8,13 +8,20 @@ class ComposerStaticInit6e315450b0d2468c24f893b33005f1c6
 {
     public static $files = array (
         '4cdafd4a5191caf078235e7dd119fdaf' => __DIR__ . '/..' . '/flightphp/core/flight/autoload.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'd507e002f7fce7f0c6dbf1f22edcb902' => __DIR__ . '/..' . '/tracy/tracy/src/Tracy/functions.php',
+        'c15d4a1253e33e055d05e547c61dcb71' => __DIR__ . '/..' . '/smarty/smarty/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'f' => 
         array (
             'flight\\' => 7,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Smarty\\' => 7,
         ),
         'A' => 
         array (
@@ -26,6 +33,14 @@ class ComposerStaticInit6e315450b0d2468c24f893b33005f1c6
         'flight\\' => 
         array (
             0 => __DIR__ . '/..' . '/flightphp/runway/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Smarty\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/smarty/smarty/src',
         ),
         'Ahc\\Cli\\' => 
         array (

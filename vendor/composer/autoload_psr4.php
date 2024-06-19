@@ -7,5 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'flight\\' => array($vendorDir . '/flightphp/runway/src'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Smarty\\' => array($vendorDir . '/smarty/smarty/src'),
     'Ahc\\Cli\\' => array($vendorDir . '/adhocore/cli/src'),
 );
