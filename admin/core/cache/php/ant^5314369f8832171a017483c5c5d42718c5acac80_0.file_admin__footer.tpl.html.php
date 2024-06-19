@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-19 23:33:20
+/* Smarty version 5.3.1, created on 2024-06-19 23:54:18
   from 'file:admin__footer.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_66734090aa2cc9_94104688',
+  'unifunc' => 'content_6673457a87aa91_10450737',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66734090aa2cc9_94104688 (\Smarty\Template $_smarty_tpl) {
+function content_6673457a87aa91_10450737 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\admin\\tpl';
 ?><div class="d-flex justify-content-between align-items-center px-xl-0">
         <ul class="nav justify-content-start ms-2 me-1" title="Ширина контейнера страницы">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-19 23:33:20
+/* Smarty version 5.3.1, created on 2024-06-19 23:54:18
   from 'file:admin2.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_66734090a5ed17_51979682',
+  'unifunc' => 'content_6673457a8433c2_19730360',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:admin__footer.tpl.html' => 1,
   ),
 ))) {
-function content_66734090a5ed17_51979682 (\Smarty\Template $_smarty_tpl) {
+function content_6673457a8433c2_19730360 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\admin\\tpl';
 ?><!DOCTYPE html>
 <html  class="h-100" lang="ru-BY"><?php $_smarty_tpl->assign('use_offcanvas_menu', 1, false, NULL);?>

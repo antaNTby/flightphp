@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-19 23:33:20
+/* Smarty version 5.3.1, created on 2024-06-19 23:54:18
   from 'file:W:\domains\flightphp\admin\tpl\../apps/Toasts/appToasts.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_66734090a7a3b2_79643340',
+  'unifunc' => 'content_6673457a8617a2_27168145',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66734090a7a3b2_79643340 (\Smarty\Template $_smarty_tpl) {
+function content_6673457a8617a2_27168145 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\admin\\apps\\Toasts';
 ?>
 <div class="toast-container position-fixed <?php echo $_smarty_tpl->getValue('toast_placement');?>

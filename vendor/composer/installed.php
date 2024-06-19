@@ -73,6 +73,15 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'izniburak/pdox' => array(
+            'pretty_version' => 'v1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => '7ad73c49734abbfeec9f2b779ffc2d422d3828c7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../izniburak/pdox',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'mikecao/flight' => array(
             'dev_requirement' => false,
             'replaced' => array(

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-19 23:32:39
+/* Smarty version 5.3.1, created on 2024-06-19 23:54:16
   from 'file:cs/single_badge.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_66734067e84329_11443910',
+  'unifunc' => 'content_66734578c93aa8_74274540',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66734067e84329_11443910 (\Smarty\Template $_smarty_tpl) {
+function content_66734578c93aa8_74274540 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\admin\\tpl\\cs';
 if ((null !== ($_smarty_tpl->getValue('p') ?? null)) && is_array($_smarty_tpl->getValue('p'))) {?>
 

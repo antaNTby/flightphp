@@ -13,9 +13,7 @@ use Smarty\Smarty;
 // composer require gabordemooij/redbean
 // composer remove gabordemooij/redbean
 
-
 // composer require --dev symfony/var-dumper
-
 
 // composer require datatables.net-bs5
 // composer require datatables.net-buttons-bs5
@@ -169,7 +167,6 @@ $smarty->force_compile = ADMIN_SMARTY_FORCE_COMPILE;
 // $smarty->setEscapeHtml(true); //Enable auto-escaping for HTML as follows:
 $smarty->setEscapeHtml(false);
 
-
 //define start smarty template
 $smarty->assign('admin_main_content_template', 'start.tpl.html');
 ###
@@ -198,6 +195,3 @@ $smarty->assign('admin_main_content_template', 'start.tpl.html');
 // set_error_handler('errorHandler');
 // register_shutdown_function('shutdownHandler');
 // error_reporting(E_ALL & ~E_NOTICE);
-
-
-

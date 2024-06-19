@@ -23,6 +23,10 @@ class ComposerStaticInit6e315450b0d2468c24f893b33005f1c6
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Smarty\\' => 7,
         ),
+        'B' => 
+        array (
+            'Buki\\' => 5,
+        ),
         'A' => 
         array (
             'Ahc\\Cli\\' => 8,
@@ -41,6 +45,10 @@ class ComposerStaticInit6e315450b0d2468c24f893b33005f1c6
         'Smarty\\' => 
         array (
             0 => __DIR__ . '/..' . '/smarty/smarty/src',
+        ),
+        'Buki\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/izniburak/pdox/src',
         ),
         'Ahc\\Cli\\' => 
         array (

@@ -9,5 +9,6 @@ return array(
     'flight\\' => array($vendorDir . '/flightphp/runway/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Smarty\\' => array($vendorDir . '/smarty/smarty/src'),
+    'Buki\\' => array($vendorDir . '/izniburak/pdox/src'),
     'Ahc\\Cli\\' => array($vendorDir . '/adhocore/cli/src'),
 );

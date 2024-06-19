@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-19 23:32:40
+/* Smarty version 5.3.1, created on 2024-06-19 23:52:51
   from 'file:start.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_667340683f8bb8_22482646',
+  'unifunc' => 'content_66734523906847_69681019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_667340683f8bb8_22482646 (\Smarty\Template $_smarty_tpl) {
+function content_66734523906847_69681019 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\admin\\tpl';
 ?><h1 class="display-5 text-xl-center">Welcome, <span class="badge text-bg-secondary"> <?php echo $_smarty_tpl->getValue('adminlogname');?>
  ! </span></h1>
