@@ -5,3 +5,5 @@ composer.lock
 .vagrant/
 runway
 COOL.sublime-workspace
+/admin/core/cache/php/ant*.php
+/admin/core/cache/ant*.php
