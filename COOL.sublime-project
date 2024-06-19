@@ -1,0 +1,25 @@
+{
+    "folders": [
+    {
+        "path": ".",
+        "file_exclude_patterns": [
+            ".git",
+            ".gitignore",
+            "Vagrantfile",
+            ".runway-config.json",
+            "composer.json",
+            "composer.lock",
+            // "README.md",
+            "index-simple.php",
+            // "COOL.sublime-project",
+            "COOL.sublime-workspace",
+            "docker-compose.yml",
+        ],
+        "folder_exclude_patterns": [
+            ".git",
+            // "app",
+            // "public",
+            "vendor",
+        ],
+    }, ],
+}
