@@ -71,10 +71,3 @@ $app->start();
 
 
 
-
-// Назначить данные шаблона
-Flight::view()->assign('name', 'Bob');
-
-// Отобразить шаблон
-// Flight::view()->display('hello.tpl');
-Flight::view()->display('admin.tpl.html');

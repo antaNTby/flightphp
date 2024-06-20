@@ -23,19 +23,20 @@ $app->register('db', PdoWrapper::class, [ $dsn, $config['database']['user'], $co
 // Также передайте функцию обратного вызова для настройки Smarty при загрузке
 Flight::register('view', Smarty::class, [], function (Smarty $smarty) {
 
-  ## $smarty->setTemplateDir('./templates/');
-  ## $smarty->setCompileDir('./templates_c/');
-  ## $smarty->setConfigDir('./config/');
+  // $smarty->setTemplateDir('./templates/');
+  // $smarty->setCompileDir('./templates_c/');
+  // $smarty->setConfigDir('./config/');
+  // $smarty->setCacheDir('./cache/');
 
 
   ### //init Smarty 5.3
-  $smarty = new Smarty();
-  $smarty->setTemplateDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'public/templates/');              // здесь лежат шаблоны tpl.html
-  $smarty->setCompileDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'public/templates/cache/php/');    // здесь компилируюся *.php
-  $smarty->setConfigDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'public/templates/smarty_config/'); // незнаю
-  $smarty->setCacheDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'public/templates/cache/');
+  // $smarty = new Smarty();  // НЕЛЬЗЯ!!!
+  $smarty->setTemplateDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app/views/smarty/templates/');              // здесь лежат шаблоны tpl.html
+  $smarty->setCompileDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app/views/smarty/templates_cache/');    // здесь компилируюся *.php
+  $smarty->setConfigDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app/views/smarty/templates/config/'); // незнаю
+  $smarty->setCacheDir(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app/views/smarty/templates/cache/');
   $smarty->compile_id    = 'ant';
-  $smarty->debugging    = 1;
+  // $smarty->debugging    = 1;
   $smarty->force_compile = true; ##ADMIN_SMARTY_FORCE_COMPILE;
   // $smarty->setEscapeHtml(true); //Enable auto-escaping for HTML as follows:
   $smarty->setEscapeHtml(false);
@@ -45,7 +46,5 @@ Flight::register('view', Smarty::class, [], function (Smarty $smarty) {
 
 Flight::map('render', function(string $template, array $data): void {
   Flight::view()->assign($data);
-  dump($data);
-  dump($template);
   Flight::view()->display($template);
 });

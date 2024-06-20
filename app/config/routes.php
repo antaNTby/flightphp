@@ -8,10 +8,11 @@ use flight\net\Router;
  * @var Router $router
  * @var Engine $app
  */
-// $router->get('/', function () use ($app)
-// {
-//     $app->render('welcome', ['message' => 'You are gonna do great things!']);
-// });
+$router->get('/', function () use ($app)
+{
+    // $app->render('welcome', ['message' => 'You are gonna do great things!']);
+    Flight::view()->display('admin.tpl.html');
+});
 
 $router->get('/hello-world/@name', function ($name)
 {
