@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-20 15:47:25
+/* Smarty version 5.3.1, created on 2024-06-20 15:49:25
   from 'file:admin__menu_offcanvas.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_667424dd0a6c89_90475426',
+  'unifunc' => 'content_667425552e47f8_62415274',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:atoms/aDivDropdownContainerSize.tpl.html' => 1,
   ),
 ))) {
-function content_667424dd0a6c89_90475426 (\Smarty\Template $_smarty_tpl) {
+function content_667425552e47f8_62415274 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\app\\views\\smarty\\templates';
 if ($_smarty_tpl->getValue('show_offcanvas_menu_on_load')) {
 $_smarty_tpl->assign('show', " show", false, NULL);

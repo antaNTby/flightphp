@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-06-20 15:47:25
+/* Smarty version 5.3.1, created on 2024-06-20 15:49:25
   from 'file:admin__navbar.tpl.html' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_667424dd08f961_71581738',
+  'unifunc' => 'content_667425552da843_71038974',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_667424dd08f961_71581738 (\Smarty\Template $_smarty_tpl) {
+function content_667425552da843_71038974 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'W:\\domains\\flightphp\\app\\views\\smarty\\templates';
 ?><nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">    <div class="<?php echo $_smarty_tpl->getValue('container_width');?>
 ">
